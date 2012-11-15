@@ -9,6 +9,7 @@ class Product < ActiveRecord::Base
     with:  %r{\.(gif|jpg|png)$}i,
     message: 'must be a URL for GIF, JPG or PNG image.' }
   validates :title, :length => { :minimum => 10, message:'more than 10 plox' }
+  validates :image_url, :uniqueness => true
   before_destroy :ensure_not_referenced_by_any_line_item
 
   private
