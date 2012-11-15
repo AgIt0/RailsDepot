@@ -8,7 +8,7 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  */
- /*
+/*
  *= require_self
  *= require_tree .
  */
@@ -20,7 +20,7 @@
   font: small-caps 40px/40px "Times New Roman", serif;
   color: #282;
   text-align: center;
-  
+
   img {
     float: left;
   }
@@ -56,7 +56,7 @@
     input {
       font-size: small;
     }
-    
+
     #cart {
       font-size: smaller;
       color: white;
